@@ -8,7 +8,7 @@ echo "#################"
 echo "BiZ9 App Framework App Git Branch Checkout"
 echo "#################"
 if [ ! "${GIT_BRANCH}" ]; then
-   ${GIT_BRANCH}=${BIZ9_GIT_BRANCH}
+   GIT_BRANCH=${BIZ9_GIT_BRANCH}
 fi
 git switch -c ${GIT_BRANCH} ${BIZ9_GIT_BRANCH}
 echo "----------------------------------"

@@ -61,8 +61,8 @@ if [ -n "${SSH_KEY}" ]; then
     echo "SSH Key: ${SSH_KEY}"
 fi
 #GIT
-if [ ! "${GIT_BRANCH}" ]; then
-   ${GIT_BRANCH}=${BIZ9_GIT_BRANCH}
+if [ ! ${GIT_BRANCH} ]; then
+   GIT_BRANCH=${BIZ9_GIT_BRANCH}
 fi
 echo "----------------------------------"
 echo "App GIT Branch: ${GIT_BRANCH}"

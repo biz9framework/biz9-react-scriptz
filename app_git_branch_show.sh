@@ -7,9 +7,7 @@ source ./.biz9_config.sh
 echo "#################"
 echo "BiZ9 App Framework App Git Branch Checkout"
 echo "#################"
-
 git branch -v -a
-
 echo "GIT Branch: ${BIZ9_GIT_BRANCH}"
 echo "GIT Repo: ${GIT_REPO}"
 echo "----------------------------------"

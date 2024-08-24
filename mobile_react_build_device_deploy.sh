@@ -1,17 +1,14 @@
 # Copyright 2023 Certified CoderZ
 # Author: certifiedcoderz@gmail.com (Certified CoderZ)
 # License GNU General Public License v3.0
-# Description: BiZ9 Framework ScriptZ : App Git Config
-source ./.biz9_config.sh
+# Description: BiZ9 Framework ScriptZ : Mobile Android React Build Device Deploy
+# source ./.biz9_config.sh
 echo "#################"
-echo "BiZ9 App Git Config"
+echo "BiZ9 Mobile Android React Build Device Deploy"
 echo "#################"
-echo 'Enter your developer name'
-read config_name
-echo 'Enter your developer email'
-read config_email
-git config --global user.email "$config_email"
-git config --global user.name "$config_name"
+#
+react-native bundle --dev false --platform android --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android.bundle --assets-dest ./android/app/src/main/res
+react-native run-android
 echo "----------------------------------"
 echo "Project-ID: ${PROJECT_ID}"
 echo "App Title: ${APP_TITLE}"

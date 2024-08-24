@@ -9,8 +9,8 @@ echo "#################"
 echo "Are you sure you want to push?"
 read n
 yes=$(echo $n | tr -s '[:upper:]' '[:lower:]')
-if [ ! -z "${GIT_BRANCH}" ]; then
-   ${GIT_BRANCH}=${BIZ9_GIT_BRANCH}
+if [ ! ${GIT_BRANCH} ]; then
+   GIT_BRANCH=${BIZ9_GIT_BRANCH}
 fi
 if [[  "$n" = "yes"  ]] ; then
     ##

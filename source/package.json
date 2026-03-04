@@ -1,6 +1,6 @@
 {
   "name": "biz9-react-scriptz",
-  "version": "5.8.28",
+  "version": "5.8.29",
   "description": "The BiZ9-React-ScriptZ framework component handles all scripting for the BiZ9-Framework. (React Based)",
   "main": "index.js",
   "scripts": {

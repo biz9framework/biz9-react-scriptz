@@ -1,0 +1,33 @@
+{
+  "name": "biz9-react-scriptz",
+  "version": "5.8.26",
+  "description": "The BiZ9-React-ScriptZ framework component handles all scripting for the BiZ9-Framework. (React Based)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Poole Sr (BiZ9 Framework LLC)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/biz9framework/biz9-react-scriptz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/biz9framework/biz9-react-scriptz/issues"
+  },
+  "homepage": "https://github.com/biz9framework",
+  "dependencies": {
+    "biz9-scriptz": "^5.8.12",
+    "biz9-utility": "^3.8.68",
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "JavaScript",
+    "Async",
+    "Utility",
+    "Git",
+    "Filename",
+    "Search",
+    "Command-Line"
+  ]
+}
